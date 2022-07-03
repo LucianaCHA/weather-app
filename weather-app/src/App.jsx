@@ -1,9 +1,15 @@
+import React from 'react';
+import Cards from './components/Cards';
+
+
 import './index.css';
+import info from './info.js';
 
 function App() {
   return (
     <div>
-      Hola soy la app!
+      <Cards cities = {info}/>
+      {/* <SearchBar onSearch={(ciudad) => alert(ciudad)}/> */}
     </div>
   );
 }
