@@ -1,7 +1,7 @@
 import React from "react";
 
 function Card (props) {
-    const {max, min, img, onClose, name } = props;
+    const {max, min, img, close, name } = props;
 
     return (
         <div>
