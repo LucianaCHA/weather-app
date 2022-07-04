@@ -5,8 +5,6 @@
 .bkg {
     width: 100vw;
     height: 100vh;
-    backdrop-filter: blur(50px);
-    
     
 }
 
@@ -18,9 +16,8 @@
     border-radius: 15px;
     box-shadow: 0px 0px 12px rgba(191, 241, 237, 0.8);
     background-color: aquamarine;
-    backdrop-filter: blur(50px);
-    
-
+    background-image: url('./assets/bkg.jpg');
+    background-size: cover;
 }
 
 .citiesContainer{
@@ -30,16 +27,15 @@
     
 }
 
-.App, 
-.searchBar{
+.App{
     background-image: url('./assets/bkg.jpg');
     background-color: darkslategray;
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
     overflow: hidden;
-    
-    
+    filter: blur(6px)
+      
     
     
 }

@@ -35,17 +35,24 @@ function App() {
   }
 
   return (
+    <div>
+      
     <div className= {s.App} >
+
       <div className= {s.bkg} > 
-        <div className={s.searchBar}>
+        
+
+      </div>
+
+
+    </div>
+
+    <div className={s.searchBar}>
           <SearchBar search = {search}/>
           <div className= {s.citiesContainer}>
             <Cards cities ={cities} close ={close} />
           </div>
         </div>
-
-      </div>
-
     </div>
   );
 }
