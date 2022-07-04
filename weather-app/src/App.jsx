@@ -40,7 +40,7 @@ function App() {
         <div className={s.searchBar}>
           <SearchBar search = {search}/>
           <div className= {s.citiesContainer}>
-            <Cards cities = {cities} close = {close} />
+            <Cards cities ={cities} close ={close} />
           </div>
         </div>
 

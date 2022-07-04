@@ -5,16 +5,29 @@
 .bkg {
     width: 100vw;
     height: 100vh;
+    backdrop-filter: blur(50px);
+    
+    
 }
 
 .searchBar{
     width: 70vw;
-    height: 80 vh;
+    height: 80vh;
+    margin: 10vh 15vw;
+    position: fixed;
+    border-radius: 15px;
+    box-shadow: 0px 0px 12px rgba(191, 241, 237, 0.8);
+    background-color: aquamarine;
+    backdrop-filter: blur(50px);
+    
 
 }
 
 .citiesContainer{
+    padding: 20px;
+    position: absolute;
 
+    
 }
 
 .App, 
@@ -23,4 +36,10 @@
     background-color: darkslategray;
     background-repeat: no-repeat;
     background-size: cover;
+    position: absolute;
+    overflow: hidden;
+    
+    
+    
+    
 }
