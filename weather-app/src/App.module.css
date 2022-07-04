@@ -1,0 +1,26 @@
+.App{
+    margin : 0;
+}
+
+.bkg {
+    width: 100vw;
+    height: 100vh;
+}
+
+.searchBar{
+    width: 70vw;
+    height: 80 vh;
+
+}
+
+.citiesContainer{
+
+}
+
+.App, 
+.searchBar{
+    background-image: url('./assets/bkg.jpg');
+    background-color: darkslategray;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
