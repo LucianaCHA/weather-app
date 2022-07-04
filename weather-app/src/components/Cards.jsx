@@ -6,7 +6,7 @@ import cities from '../info.js';
 
 
 function Cards (props) {
-    // const { cities } = props;
+    const { cities } = props;
 
     if (cities){
         return(
