@@ -23,8 +23,12 @@
 .citiesContainer{
     padding: 20px;
     position: absolute;
-
-    
+    display: flex;
+    bottom: 0px;
+    left: 5%;
+    right: 5%;
+    align-content: center;
+    background-color: black;    
 }
 
 .App{

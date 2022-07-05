@@ -51,7 +51,10 @@ function App() {
           <SearchBar search = {search}/>
           <div className= {s.citiesContainer}>
             <Cards cities ={cities} close ={close} />
+            <h1 style={{fontSize: '55px', color:'wheat', width:'100%'}}>Aca va la data del pronóstico</h1>
           </div>
+
+          <div > <h2 style={{fontSize: '15px', color:'wheat', backgroundColor: 'red', marginRight:'0px' }} >Aca va la city</h2></div>
         </div>
     </div>
   );
